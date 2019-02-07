@@ -1,7 +1,7 @@
 """
-Sending RGB image tiles to a running tf-serving image for prediction and plotting ROC curve
-
 roc_w_tf-servimg.py
+
+Sending RGB image tiles to a running tf-serving POST for prediction and plotting ROC curve
 
 author: @DevelopmentSeed
 
@@ -9,7 +9,7 @@ usage:
 python3 roc_w_tf-servimg.py --test_path=test \
         --keyword1=not_school \
         --keyword2=school \
-        --server_endpoint='http://localhost:8501/v1/models/unicef_school_tf_serving:predict' \
+        --server_endpoint='http://localhost:8501/v1/models/2nd-iter_more-schools_tf-serving:predict' \
         --plot_dir=plot_dir \
         --model_time="0122_071829"
 
