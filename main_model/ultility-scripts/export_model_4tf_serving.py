@@ -1,7 +1,7 @@
 """
 export_model_4tf_serving.py
 
-Script to create tensorflow serving docker image.
+Script to export trained model to create tensorflow serving docker image.
 
 author: @developmentseed
 
