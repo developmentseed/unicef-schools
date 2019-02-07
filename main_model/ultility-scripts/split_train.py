@@ -15,7 +15,6 @@ python3 split_train.py \
 The above python script will split train, validation and test for school tiles
 You can split the train and test in the same way e.g for hospital or other catagories
 
-
 """
 
 
