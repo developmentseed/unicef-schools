@@ -15,17 +15,18 @@ To install `sat-xception`, transfer-learn and fine-tune an image classification 
 - cd to `sat-xception`;
 - run `pip3 install -e .`
 
+**The full training workflow** is in the jupyter notebook [here](https://github.com/developmentseed/unicef-schools/blob/clean-up/main_model/Sat_Xception-train_school_detection_with_deep_learning.ipynb)
 ## Installation under a Nvidia docker
 
 ### Use a pre-built docker images
-(---!TODO) We have a pre-built docker image `developmentseed/sat-xception` (for current use please pull and use `geoyi/sat_exception`) and you can just run:
+We have a pre-built docker image `developmentseed/sat-xception` (for current use please pull and use `geoyi/sat_exception`) and you can just run:
 - `nvidia-docker run -v $PWD:/example -p 8888:8888 -it developmentseed/sat-xception` to run a jupyter notebook;
 - `nvidia-docker run -v $PWD:/example -it developmentseed/sat-xception /bin/bash` to run the training with CLI;
 
 
 ## Train
 You have two way to train the model:
-- run our prepared jupyter notebook (---!TODO); or
+- run our prepared [jupyter notebook](https://github.com/developmentseed/unicef-schools/blob/clean-up/main_model/Sat_Xception-train_school_detection_with_deep_learning.ipynb); or
 - train the model with CLI.
 
 ### Training dataset
