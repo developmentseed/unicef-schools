@@ -6,7 +6,7 @@ docutils==0.14
 entrypoints==0.2.3
 et-xmlfile==1.0.1
 h5py==2.7.0
-lxml==4.1.0
+lxml==4.9.1
 Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.1.0
